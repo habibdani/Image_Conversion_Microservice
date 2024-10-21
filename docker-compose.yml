@@ -1,0 +1,8 @@
+version: '3'
+services:
+  image-webp-service:
+    build: .
+    ports:
+      - "3033:3033"
+    environment:
+      - NODE_ENV=production
